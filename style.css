@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@100&family=Montserrat&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box1{
+    padding: 3em;
+    background-color: hsl(31, 77%, 52%);
+    height: 70vh;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.box2{
+    padding: 3em;
+    background-color: rgb(24, 97, 79);
+    height: 70vh;
+    width: 100%;
+}
+.box3{
+    padding: 3em;
+    background-color: rgb(14, 46, 14);
+    height: 70vh;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.box1 h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    
+ 
+}
+.box2 h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+.box3 h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+.box1 p{
+    color: white;
+    padding-bottom: 80px;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+}
+.box2 p{
+    color: white;
+    padding-bottom: 70px;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+    
+}
+.box3 p{
+    color: white;
+    padding-bottom: 70px;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+}
+.button{
+    margin: 30px 0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.btn1{
+    color: orange;
+}
+.btn2{
+    color: rgb(24, 97, 79);
+}
+.btn3{
+    color: rgb(14, 46, 14);
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+}
