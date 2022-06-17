@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(7, 26, 26);
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+}
+.boxa{
+    background-color: red;
+    grid-area: a;
+    height: 25vh;
+}
+.boxb{
+    background-color: orange;
+    grid-area: b;
+    height: 25vh;
+}
+.boxc{
+    background-color: green;
+    grid-area: c;
+    height: 30vh;
+    
+}
+.boxd{
+    background-color: rgb(38, 137, 177);
+    grid-area: d;
+    
+}
+.boxe{
+    background-color: rgb(38, 137, 177);
+    grid-area: e;
+    
+}
